@@ -159,6 +159,8 @@ class Ingot:
             
         self.polygons =[] # строим полигоны, которые поместим потом на рисунок
         self.markphase=[] # точка в центре полигона, маркер ликвидуса/солидуса
+        
+        # физические парметры слитка для возможного анализа        
         self.materialmass = sum(filter(lambda x:x<math.inf,self.mass)) # фактическая масса слитка
         self.maxcellmass = max(filter(lambda x:x<math.inf,self.mass)) # фактическая ... слитка
         self.mincellmass = min(filter(lambda x:x<math.inf,self.mass)) # фактическая ... слитка
