@@ -1,3 +1,7 @@
+# Have a nice day  
+#  Luna
+
+
 import math
 import numpy as np
 import random
